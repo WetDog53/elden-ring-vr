@@ -1,0 +1,132 @@
+[
+  {
+    "id": "grab_pinch",
+    "name": "/actions/Default/in/GrabPinch",
+    "type": "boolean",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.grab.pinch",
+    "required": true,
+    "status": "planned",
+    "notes": "Used for light object interaction and picking up weapons."
+  },
+  {
+    "id": "grab_grip",
+    "name": "/actions/Default/in/GrabGrip",
+    "type": "boolean",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.grab.grip",
+    "required": true,
+    "status": "planned",
+    "notes": "Primary hand squeeze input for weapon hold and shield grasp."
+  },
+  {
+    "id": "pose",
+    "name": "/actions/Default/in/Pose",
+    "type": "pose",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.hand.pose",
+    "required": true,
+    "status": "planned",
+    "notes": "Tracks the full hand pose for weapon swings and spell gestures."
+  },
+  {
+    "id": "skeleton_left",
+    "name": "/actions/Default/in/SkeletonLeftHand",
+    "type": "skeleton",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.hand.left",
+    "required": true,
+    "status": "planned",
+    "notes": "Left-hand skeleton used for movement and secondary actions."
+  },
+  {
+    "id": "skeleton_right",
+    "name": "/actions/Default/in/SkeletonRightHand",
+    "type": "skeleton",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.hand.right",
+    "required": true,
+    "status": "planned",
+    "notes": "Right-hand skeleton used for weapon and spell actions."
+  },
+  {
+    "id": "headset_on_head",
+    "name": "/actions/Default/in/HeadsetOnHead",
+    "type": "boolean",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.camera.headset",
+    "required": false,
+    "status": "planned",
+    "notes": "Optional proximity sensor used for comfort checks."
+  },
+  {
+    "id": "move",
+    "name": "/actions/Default/in/Move",
+    "type": "vector2",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.movement.move",
+    "required": true,
+    "status": "planned",
+    "notes": "Primary locomotion input."
+  },
+  {
+    "id": "turn",
+    "name": "/actions/Default/in/Turn",
+    "type": "vector2",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.camera.turn",
+    "required": true,
+    "status": "planned",
+    "notes": "Used to rotate the player view, can be replaced by head tracking."
+  },
+  {
+    "id": "menu",
+    "name": "/actions/Default/in/Menu",
+    "type": "boolean",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.ui.menu",
+    "required": true,
+    "status": "planned",
+    "notes": "Basic in-game menu access."
+  },
+  {
+    "id": "click_ui",
+    "name": "/actions/Default/in/ClickUI",
+    "type": "boolean",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.ui.click",
+    "required": true,
+    "status": "planned",
+    "notes": "Used to select UI elements in the VR menu layer."
+  },
+  {
+    "id": "cast",
+    "name": "/actions/Default/in/Cast",
+    "type": "vector1",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.spell.cast",
+    "required": true,
+    "status": "planned",
+    "notes": "Gesture strength / trigger value for spell release."
+  },
+  {
+    "id": "use",
+    "name": "/actions/Default/in/Use",
+    "type": "vector1",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.interact.use",
+    "required": true,
+    "status": "planned",
+    "notes": "Used for object interaction and pickup state."
+  },
+  {
+    "id": "alternate_use",
+    "name": "/actions/Default/in/AlternateUse",
+    "type": "vector1",
+    "source": "Blade & Sorcery",
+    "target": "elden_ring.interact.alt_use",
+    "required": false,
+    "status": "planned",
+    "notes": "Optional alt interaction input for menu or item handling."
+  }
+]

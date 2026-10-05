@@ -1,0 +1,42 @@
+[
+  {
+    "id": "weapon_longsword",
+    "name": "Longsword",
+    "class": "weapon",
+    "requires": ["grab_grip", "pose"],
+    "target": "elden_ring.weapon.longsword",
+    "required": true,
+    "status": "planned",
+    "notes": "A sword swing is recognized from the right-hand motion arc."
+  },
+  {
+    "id": "weapon_shield",
+    "name": "Shield",
+    "class": "utility",
+    "requires": ["grab_grip", "pose"],
+    "target": "elden_ring.weapon.shield",
+    "required": true,
+    "status": "planned",
+    "notes": "Used for parry/block logic when held in the off-hand."
+  },
+  {
+    "id": "spell_glintstone",
+    "name": "Glintstone Spell",
+    "class": "spell",
+    "requires": ["cast", "pose"],
+    "target": "elden_ring.spell.glintstone",
+    "required": true,
+    "status": "planned",
+    "notes": "Gesture-based spell implementation for the first playable prototype."
+  },
+  {
+    "id": "weapon_critical_swing",
+    "name": "Critical Swing",
+    "class": "attack",
+    "requires": ["pose", "grab_grip"],
+    "target": "elden_ring.attack.critical_swing",
+    "required": false,
+    "status": "planned",
+    "notes": "Advanced finishing move triggered by a high-energy swing."
+  }
+]

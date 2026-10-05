@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ui_main_menu",
+    "name": "Main menu",
+    "target": "elden_ring.ui.main_menu",
+    "required": true,
+    "status": "planned",
+    "notes": "VR-adapted overlay for inventory, settings, and pause actions."
+  },
+  {
+    "id": "ui_inventory",
+    "name": "Inventory",
+    "target": "elden_ring.ui.inventory",
+    "required": true,
+    "status": "planned",
+    "notes": "Hand-pointing or raycast selection instead of flat menu cursor."
+  },
+  {
+    "id": "ui_quickslots",
+    "name": "Quickslots",
+    "target": "elden_ring.ui.quickslots",
+    "required": true,
+    "status": "planned",
+    "notes": "Visible in a reachable 3D layout for fast spell or item access."
+  },
+  {
+    "id": "ui_in_world_interact",
+    "name": "World Interaction",
+    "target": "elden_ring.ui.world_interaction",
+    "required": true,
+    "status": "planned",
+    "notes": "Used to interact with loot, doors, and other world objects."
+  }
+]

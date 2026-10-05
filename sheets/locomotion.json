@@ -1,0 +1,52 @@
+[
+  {
+    "id": "locomotion_vr_teleport",
+    "name": "VR Teleport",
+    "type": "movement",
+    "source": "Blade & Sorcery locomotion mapping",
+    "target": "elden_ring.movement.locomotion",
+    "required": true,
+    "status": "planned",
+    "notes": "Primary movement mode for comfort-focused VR."
+  },
+  {
+    "id": "locomotion_smooth",
+    "name": "Smooth Move",
+    "type": "movement",
+    "source": "Blade & Sorcery move vector",
+    "target": "elden_ring.movement.smooth",
+    "required": false,
+    "status": "planned",
+    "notes": "Optional movement variant for players comfortable with motion."
+  },
+  {
+    "id": "camera_head_tracking",
+    "name": "Head Tracking",
+    "type": "camera",
+    "source": "VR headset pose",
+    "target": "elden_ring.camera.head",
+    "required": true,
+    "status": "planned",
+    "notes": "The main camera orientation should follow the player's headset."
+  },
+  {
+    "id": "camera_recenter",
+    "name": "Recenter",
+    "type": "camera",
+    "source": "VR device profile",
+    "target": "elden_ring.camera.recenter",
+    "required": true,
+    "status": "planned",
+    "notes": "Used to keep the player grounded when neck movement drifts."
+  },
+  {
+    "id": "comfort_vignette",
+    "name": "Vignette Comfort",
+    "type": "comfort",
+    "source": "VR comfort options",
+    "target": "elden_ring.comfort.vignette",
+    "required": false,
+    "status": "planned",
+    "notes": "Optional comfort setting to reduce motion sickness."
+  }
+]
